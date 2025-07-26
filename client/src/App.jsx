@@ -6,6 +6,8 @@ import Quiz from "./pages/Quiz";
 import Reviewer from "./pages/Reviewer";
 import Flashcard from "./pages/Flashcard";
 import NoPage from "./pages/NoPage";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 
 const App = () => {
@@ -19,11 +21,13 @@ const App = () => {
 
   return (
     <div>
+      <Navbar />
       <Routes>
         {routes.map((route, i) => (
           <Route key={i} path={route.path} element={route.element} />
         ))}
       </Routes>
+      <Footer />
     </div>
   );
 };
