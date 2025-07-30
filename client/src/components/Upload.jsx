@@ -2,10 +2,10 @@ import React from "react";
 
 const Upload = () => {
   return (
-    <div className="flex justify-center items-center min-h-screen bg-white-100">
-      <div className="flex flex-col justify-center items-center w-full max-w-lg  px-6 py-8 gap-5 rounded-2xl">
+    <div className="flex justify-center items-center h-fit md:h-fit md:min-w-[80%] bg-white-100 md:shadow-2xl inset-shadow-sm rounded-2xl">
+      <div className="flex flex-col justify-center items-center w-full h-full max-w-full  px-6 py-8 md:px-10 md:py-12 gap-5">
         {/* Heading */}
-        <h1 className="text-center text-[#433BFF] text-2xl font-black leading-snug">
+        <h1 className="text-center text-[#433BFF] text-2xl md:text-4xl font-black leading-snug">
           UPLOAD. REVIEW. QUIZ. REPEAT.
         </h1>
 
@@ -19,7 +19,7 @@ const Upload = () => {
         <div className="flex flex-col items-center w-full border-2 border-[#433BFF] border-dashed rounded-lg p-5 gap-2 text-center mb-1">
           <label
             htmlFor="file_input"
-            className="text-sm font-semibold text-[#433BFF]"
+            className="text-sm md:text-xl font-semibold md:font-bold"
           >
             UPLOAD YOUR LESSONS HERE!!!
           </label>
@@ -42,7 +42,7 @@ const Upload = () => {
         </div>
 
         {/* Upload Button */}
-        <button className="w-full py-2 text-sm font-medium text-white bg-[#433BFF] rounded-lg hover:bg-[#2f30d5] transition duration-200">
+        <button className="w-full md:w-fit md:px-4 py-2 text-sm font-medium text-white bg-[#433BFF] rounded-lg hover:bg-[#2f30d5] transition duration-200">
           UPLOAD
         </button>
       </div>

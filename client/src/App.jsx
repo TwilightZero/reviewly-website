@@ -20,7 +20,7 @@ const App = () => {
   ];
 
   return (
-    <div>
+    <div className="flex flex-col min-h-screen">
       <Navbar />
       <Routes>
         {routes.map((route, i) => (
