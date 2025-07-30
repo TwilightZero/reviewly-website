@@ -2,7 +2,7 @@ import React from "react";
 
 const Upload = () => {
   return (
-    <div className="flex justify-center items-center h-fit md:h-fit md:min-w-[80%] bg-white-100 md:shadow-2xl inset-shadow-sm rounded-2xl">
+    <div className="flex justify-center items-center h-fit md:h-fit md:min-w-[80%] bg-white-100 md:shadow-2xl md:inset-shadow-sm rounded-2xl">
       <div className="flex flex-col justify-center items-center w-full h-full max-w-full  px-6 py-8 md:px-10 md:py-12 gap-5">
         {/* Heading */}
         <h1 className="text-center text-[#433BFF] text-2xl md:text-4xl font-black leading-snug">
