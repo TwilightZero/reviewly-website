@@ -22,11 +22,13 @@ const App = () => {
   return (
     <div className="flex flex-col min-h-screen">
       <Navbar />
-      <Routes>
+      <main className="flex-grow">
+        <Routes>
         {routes.map((route, i) => (
           <Route key={i} path={route.path} element={route.element} />
         ))}
       </Routes>
+      </main>
       <Footer />
     </div>
   );
